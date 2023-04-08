@@ -22,16 +22,22 @@
     align-items: center;
     justify-content: center;
 
-    margin: 24px 56px 0 54px;
+    gap: 19px;
+    margin: 57px 56px 0 54px;
 
 }
 
 .logo-side h1 {
-    font-size: 16px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 700;
 
     color: white;
+}
+
+.logo-side img {
+    width: 69%;
+    height: 59%;
 }
 
 .punctuation-box {
@@ -44,11 +50,10 @@
     width: 69%;
     padding: 8px;
     border-radius: 6px;
-    margin: 40px 0 auto 0;
+    margin: 40px 0 93px 0;
 
     color: #f0c551;
 
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 8px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 9px 36px -18px inset;
 }
 
 .punctuation {
@@ -101,7 +106,7 @@
     justify-content: center;
     flex-wrap: wrap;
 
-    width: 57%;
+    width: 905px;
     gap: 1em;
 }
 
@@ -129,14 +134,15 @@
     position: absolute;
     width: 512px;
     height: 512px;
+
     background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 @media screen and (max-width: 1200px) {
 
-    /* .flex-div {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    } */
     .flex-div {
         gap: 8px;
         width: 100%;
@@ -150,12 +156,9 @@
 
 @media screen and (max-width: 1040px) {
 
-    /* .flex-div {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    } */
     .flex-div {
         gap: 8px;
-        width: 100%;
+        width: 727px;
     }
 
     .card {
@@ -165,9 +168,6 @@
 }
 
 @media screen and (max-width: 866px) {
-    /* .grid {
-        grid-template-columns: 1fr 1fr 1fr;
-    } */
 
     .flex-div {
         gap: 8px;
@@ -182,9 +182,6 @@
 }
 
 @media screen and (max-width: 792px) {
-    /* .grid {
-        grid-template-columns: 1fr 1fr 1fr;
-    } */
 
     .flex-div {
         gap: 8px;
@@ -199,9 +196,6 @@
 }
 
 @media screen and (max-width: 734px) {
-    /* .grid {
-        grid-template-columns: 1fr 1fr 1fr;
-    } */
 
     .flex-div {
         gap: 8px;
@@ -216,10 +210,71 @@
 }
 
 
-@media screen and (max-width: 612px) {
+@media screen and (max-width: 684px) {
+    .App {
+        flex-direction: column;
+    }
+
+
+    .sidebar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        flex-direction: row;
+        width: 100%;
+        height: 13%;
+        background: linear-gradient(90deg, #000000 0%, rgba(15, 13, 15, 0.65) 100%);
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .logo-side {
+        margin: 0 0 0 16px;
+        gap: 8px;
+    }
+
+    .logo-side img {
+        width: 54%;
+    }
+
+    .reset-btn {
+        width: 95px;
+        height: 46px;
+        margin: 0 32px 0 0;
+    }
+
+    .punctuation-box {
+        margin: 0;
+    }
+
+    .punctuation-text {
+        font-size: 18px;
+    }
+
+    .logo-side h1 {
+        font-size: 14px;
+    }
+
+    .logo-side img {
+        width: 24px;
+    }
+
+    .reset-btn {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 100%;
+        height: 87%;
+    }
+
+    .congrats {
+        width: calc(100% - 64px);
+    }
+
     .flex-div {
         gap: 8px;
-        width: 100%;
+        width: 468px;
     }
 
     .card {
@@ -227,21 +282,10 @@
         height: 114px;
     }
 
-    /* 
-    .reset-btn {
-        font-size: 8px;
-    }
 
-    .logo-side h1 {
-        font-size: 12px;
-    }
-
-    .logo-side img {
-        width: 24px;
-    } */
 }
 
-@media screen and (max-width: 538px) {
+/* @media screen and (max-width: 538px) {
     .flex-div {
         gap: 8px;
         width: 100%;
@@ -263,7 +307,7 @@
     .logo-side img {
         width: 24px;
     } */
-}
+
 
 
 @media screen and (max-width: 462px) {
@@ -278,16 +322,21 @@
     }
 
 
-    .reset-btn {
-        font-size: 8px;
+
+    .punctuation-text {
+        font-size: 18px;
     }
 
     .logo-side h1 {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .logo-side img {
         width: 24px;
+    }
+
+    .reset-btn {
+        font-size: 16px;
     }
 }
 
@@ -302,15 +351,4 @@
         height: 100px;
     }
 
-    .reset-btn {
-        font-size: 8px;
-    }
-
-    .logo-side h1 {
-        font-size: 12px;
-    }
-
-    .logo-side img {
-        width: 24px;
-    }
 }
