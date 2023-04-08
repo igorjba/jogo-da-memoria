@@ -13,7 +13,7 @@ Para visualizar o projeto, basta acessar o link: [https://jogo-da-memoria-chi.ve
 
 ## Sobre
 
-Este projeto é um jogo da memória, onde o usuário deve encontrar os pares de cartas iguais. O jogo possui um contador de movimentos e um botão para reiniciar o jogo. Foi construído utilizando [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML), [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS), [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) e [Reactjs](https://pt-br.reactjs.org/).
+Este projeto é um jogo da memória, onde o usuário deve encontrar os pares de cartas iguais. O jogo possui um contador de movimentos e um botão para reiniciar o jogo. Foi construído utilizando [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML), [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS), [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) e [ReactJS](https://pt-br.reactjs.org/).
 
 ## Construído com
 
@@ -27,7 +27,7 @@ Este projeto é um jogo da memória, onde o usuário deve encontrar os pares de 
 
 ### Home
 
-<!-- - Home ![](https://i.ibb.co/59zfbS5/home-light.png "Home") -->
+- Home ![](https://i.ibb.co/Nn6Yf8h/jogo-da-memoria1.jpg "Home")
 
 <br>
 
