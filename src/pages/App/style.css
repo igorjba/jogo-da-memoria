@@ -1,0 +1,316 @@
+.App {
+    display: flex;
+
+    height: 100vh;
+}
+
+.sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    width: 17%;
+
+    background: linear-gradient(180deg, #000000 0%, rgba(15, 13, 15, 0.65) 100%);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 24px 56px 0 54px;
+
+}
+
+.logo-side h1 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+
+    color: white;
+}
+
+.punctuation-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 11%;
+    width: 69%;
+    padding: 8px;
+    border-radius: 6px;
+    margin: 40px 0 auto 0;
+
+    color: #f0c551;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 8px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 9px 36px -18px inset;
+}
+
+.punctuation {
+    font-size: 40px;
+
+}
+
+.punctuation-text {
+    font-size: 32px;
+}
+
+.reset-btn {
+    width: 69%;
+    height: 7%;
+    margin: 0 32px 47px 32px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+
+    font-size: 16px;
+    text-transform: uppercase;
+
+    background-color: #F0C551;
+    color: white;
+}
+
+.reset-btn:hover {
+    background-color: #d4af4b;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 8px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 9px 36px -18px inset;
+    transform: scale(0.98);
+    color: #efeeee;
+}
+
+.reset-btn:active {
+    transform: scale(0.9);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 83%;
+    position: relative;
+}
+
+.flex-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 57%;
+    gap: 1em;
+}
+
+
+
+.card {
+    width: 136px;
+    height: 236px;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card:active {
+    transform: scale(0.95);
+}
+
+.congrats {
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    background-size: contain;
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* .flex-div {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    } */
+    .flex-div {
+        gap: 8px;
+        width: 100%;
+    }
+
+    .card {
+        width: 136px;
+        height: 237px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+
+    /* .flex-div {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    } */
+    .flex-div {
+        gap: 8px;
+        width: 100%;
+    }
+
+    .card {
+        width: 113px;
+        height: 195px;
+    }
+}
+
+@media screen and (max-width: 866px) {
+    /* .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    } */
+
+    .flex-div {
+        gap: 8px;
+        width: 100%;
+    }
+
+    .card {
+        width: 102px;
+        height: 174px;
+    }
+
+}
+
+@media screen and (max-width: 792px) {
+    /* .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    } */
+
+    .flex-div {
+        gap: 8px;
+        width: 100%;
+    }
+
+    .card {
+        width: 95px;
+        height: 164px;
+    }
+
+}
+
+@media screen and (max-width: 734px) {
+    /* .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    } */
+
+    .flex-div {
+        gap: 8px;
+        width: 100%;
+    }
+
+    .card {
+        width: 81px;
+        height: 139px;
+    }
+
+}
+
+
+@media screen and (max-width: 612px) {
+    .flex-div {
+        gap: 8px;
+        width: 100%;
+    }
+
+    .card {
+        width: 66px;
+        height: 114px;
+    }
+
+    /* 
+    .reset-btn {
+        font-size: 8px;
+    }
+
+    .logo-side h1 {
+        font-size: 12px;
+    }
+
+    .logo-side img {
+        width: 24px;
+    } */
+}
+
+@media screen and (max-width: 538px) {
+    .flex-div {
+        gap: 8px;
+        width: 100%;
+    }
+
+    .card {
+        width: 57px;
+        height: 100px;
+    }
+
+    /* .reset-btn {
+        font-size: 8px;
+    }
+
+    .logo-side h1 {
+        font-size: 12px;
+    }
+
+    .logo-side img {
+        width: 24px;
+    } */
+}
+
+
+@media screen and (max-width: 462px) {
+    .flex-div {
+        gap: 8px;
+        width: 316px;
+    }
+
+    .card {
+        width: 57px;
+        height: 100px;
+    }
+
+
+    .reset-btn {
+        font-size: 8px;
+    }
+
+    .logo-side h1 {
+        font-size: 12px;
+    }
+
+    .logo-side img {
+        width: 24px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .flex-div {
+        gap: 8px;
+        width: 252px;
+    }
+
+    .card {
+        width: 57px;
+        height: 100px;
+    }
+
+    .reset-btn {
+        font-size: 8px;
+    }
+
+    .logo-side h1 {
+        font-size: 12px;
+    }
+
+    .logo-side img {
+        width: 24px;
+    }
+}
